@@ -1,4 +1,4 @@
-import { IconBrandFacebook, IconBrandTwitter } from "@tabler/icons-react";
+import { IconBrandFacebook, IconBrandFacebookFilled, IconBrandTwitter, IconBrandTwitterFilled } from "@tabler/icons-react";
 
 export default function ContactPage() {
   return (
@@ -6,13 +6,13 @@ export default function ContactPage() {
       <p className="fw-bold fs-4">Contact</p>
       <p>
         <strong>
-          <IconBrandFacebook /> Facebook :
+          <IconBrandFacebookFilled /> Facebook :
         </strong>
         TOP10IMDB
       </p>
       <p>
         <strong>
-          <IconBrandTwitter /> Twitter :
+          <IconBrandTwitterFilled /> Twitter :
         </strong>
         @TOP10IMDB
       </p>
